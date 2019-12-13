@@ -12,12 +12,13 @@ which must be stored in the right ordered using date for keys.
 `python my_collections/my_setup.py install`
 
 then in a python shell
-`from my_collections import DefaultOrderedDict`
 
-`my_dict = DefaultOrderedDict()`
+`>>> from my_collections import DefaultOrderedDict`
+
+`>>> my_dict = DefaultOrderedDict()`
 
 
-`# more complex stuff`
+more complex stuff
 
-`my_complex_dict = defaultdict(lambda: DefaultOrderedDict)`
+`>>> my_complex_dict = defaultdict(lambda: DefaultOrderedDict)`
 
