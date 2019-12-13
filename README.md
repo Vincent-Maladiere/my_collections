@@ -1,6 +1,8 @@
 # my_collections
-Implementing the missing DefaultOrderedDict from collections
+Implementing the missing DefaultOrderedDict from collections.
+
 It combines both the advantages of defaultdict and OrderedDict. 
+
 I personally found them particularly useful to store time-period dictionnaries of statistics,
 which must be stored in the right ordered using date for keys.
 
